@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCategory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Category>
+    <Name>Electronics</Name>
+    <Products>
+      <Product>
+        <Name>iPhone 15 Pro</Name>
+        <Price>45000</Price>
+        <Description>Apple smartphone with 256GB memory</Description>
+      </Product>
+      <Product>
+        <Name>Samsung Galaxy S24</Name>
+        <Price>38000</Price>
+        <Description>Androind smartphone with 256GB memory</Description>
+      </Product>
+      <Product>
+        <Name>Lenovo ThinkPad E14 Gen 6</Name>
+        <Price>52000</Price>
+        <Description>Black laptop with Ryzen 5 7535HS CPU</Description>
+      </Product>
+      <Product>
+        <Name>iPad Pro 12.9</Name>
+        <Price>48000</Price>
+        <Description>Apple tablet</Description>
+      </Product>
+    </Products>
+  </Category>
+  <Category>
+    <Name>Clothes</Name>
+    <Products>
+      <Product>
+        <Name>Jeans</Name>
+        <Price>2500</Price>
+        <Description>Veey cool blue jeans</Description>
+      </Product>
+      <Product>
+        <Name>Nike Tshirt</Name>
+        <Price>800</Price>
+        <Description>Sports t-short with Nike logo</Description>
+      </Product>
+      <Product>
+        <Name>Puma shoes</Name>
+        <Price>2100</Price>
+        <Description>Runner shoes</Description>
+      </Product>
+    </Products>
+  </Category>
+  <Category>
+    <Name>Books</Name>
+    <Products>
+      <Product>
+        <Name>Kobzar</Name>
+        <Price>250</Price>
+        <Description>Poetry of a famous ukrainian writer Taras Shevchenko</Description>
+      </Product>
+      <Product>
+        <Name>Harry Potrer</Name>
+        <Price>450</Price>
+        <Description>Full series of books by JK Rowling</Description>
+      </Product>
+      <Product>
+        <Name>1984</Name>
+        <Price>320</Price>
+        <Description>Dystopian novel about totalitarism by George Orwell</Description>
+      </Product>
+      <Product>
+        <Name>CLR via C#</Name>
+        <Price>680</Price>
+        <Description>Book for .NET by Richter</Description>
+      </Product>
+    </Products>
+  </Category>
+  <Category>
+    <Name>test</Name>
+    <Products>
+      <Product>
+        <Name>testprod</Name>
+        <Price>111</Price>
+        <Description>cool</Description>
+      </Product>
+    </Products>
+  </Category>
+  <Category>
+    <Name>test2</Name>
+    <Products>
+      <Product>
+        <Name>testprodd</Name>
+        <Price>900</Price>
+        <Description>ddd</Description>
+      </Product>
+    </Products>
+  </Category>
+</ArrayOfCategory>
