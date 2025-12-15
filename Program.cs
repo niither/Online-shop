@@ -36,7 +36,7 @@ namespace Online_shop
                 var mainMenu = new Menu(categoryService, fileManager);
                 mainMenu.Run();
 
-                fileManager.SaveCategories(categoryService.GetAllCategories(), "data/categories.xml");
+                fileManager.SaveCategories(categoryService.GetAllCategories(), "C:\\Users\\user\\Desktop\\STEP\\.net\\Online-shop\\categories.xml");
             }
             catch (Exception ex)
             {
@@ -67,7 +67,7 @@ namespace Online_shop
         /// <param name="fileManager">File manager object</param>
         private static void InitializeData(CategoryService categoryService, FileManager fileManager)
         {
-            var categories = fileManager.LoadCategories("data/categories.xml");
+            var categories = fileManager.LoadCategories("C:\\Users\\user\\Desktop\\STEP\\.net\\Online-shop\\categories.xml");
 
             if (categories != null && categories.Count > 0)
             {
@@ -96,7 +96,7 @@ namespace Online_shop
             categories.Add(books);
 
             categoryService.LoadCategories(categories);
-            fileManager.SaveCategories(categoryService.GetAllCategories(), "data/categories.xml");
+            fileManager.SaveCategories(categoryService.GetAllCategories(), "C:\\Users\\user\\Desktop\\STEP\\.net\\Online-shop\\categories.xml");
         }
     }
 }

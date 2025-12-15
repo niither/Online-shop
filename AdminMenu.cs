@@ -239,7 +239,7 @@ namespace Online_shop
         /// </summary>
         private void SaveData()
         {
-            _fileManager.SaveCategories(_categoryService.GetAllCategories(), "data\\categories.xml");
+            _fileManager.SaveCategories(_categoryService.GetAllCategories(), "C:\\Users\\user\\Desktop\\STEP\\.net\\Online-shop\\categories.xml");
 
             Console.WriteLine("\nAll data saved!");
             Console.ReadKey();
